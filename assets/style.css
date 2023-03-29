@@ -1,0 +1,56 @@
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con-1{
+    width: 100%;
+    border: 1px solid gray;
+}
+nav{
+    background-color: #1abc9c;
+}
+.con-img{
+    margin: 20px 0;
+}
+.bootstrap{
+    margin: 20px 0 0 0;
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+}
+.icon{
+    font-size: 35px;
+    color: white;
+}
+.line{
+    width: 400px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.line::before{
+    content: '';
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 4px;
+    left: 45px;
+    top: 12px;
+}
+.line::after{
+    content: '';
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 4px;
+    right: 45px;
+    top: 12px;
+}
+.text-about{
+    margin: 10px 0 50px 0;
+}
